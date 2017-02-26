@@ -1,0 +1,12 @@
+{
+	"name": "expat-d",
+	"description": "D bindings for the Expat XML parser",
+	"copyright": "Copyright © 2017 Moritz Maxeiner",
+	"license": "MIT",
+	"authors": [
+		"Moritz Maxeiner"
+	],
+	"homepage": "https://github.com/Calrama/expat-d",
+
+	"targetType": "library"
+}
