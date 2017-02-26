@@ -154,9 +154,9 @@ XML_SetXmlDeclHandler(XML_Parser parser,
 
 
 struct XML_Memory_Handling_Suite {
-  extern(C) nothrow void function(size_t size)            malloc_fcn;
-  extern(C) nothrow void function(void* ptr, size_t size) realloc_fcn;
-  extern(C) nothrow void function(void* ptr)              free_fcn;
+  extern(C) nothrow void* function(size_t size)            malloc_fcn;
+  extern(C) nothrow void* function(void* ptr, size_t size) realloc_fcn;
+  extern(C) nothrow void  function(void* ptr)              free_fcn;
 }
 
 extern(C) nothrow XML_Parser
